@@ -6,7 +6,7 @@ pip install -r requirements.txt
 # Prepare inception moment file
 * Download CelebA (Align&Cropped Images) dataset [url](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) and save *img_align_celeba* into *~/.keras/celeba/*.
 
-You'll need the Inception moments to calculate FID:
+Preparing the Inception moment file for FID:
 ```bash
 export CUDA_VISIBLE_DEVICES=0
 cd BigGAN-PyTorch-1-exp-master
